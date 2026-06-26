@@ -1,20 +1,5 @@
 # Top 100 HTML5 Interview Questions & Answers
 
-This document compiles 100 essential HTML5 interview questions and detailed answers, categorized logically from foundational structure up to advanced APIs and browser optimization practices. Perfect for revision, interviewing, or technical onboarding.
-
----
-
-## Table of Contents
-1. [Core Structure & Semantic Elements (1-10)](#1-core-structure--semantic-elements)
-2. [Multimedia & Streaming Elements (11-20)](#2-multimedia--streaming-elements)
-3. [Graphics, Canvas & SVG (21-30)](#3-graphics-canvas--svg)
-4. [Form Enhancements & Input Controls (31-50)](#4-form-enhancements--input-controls)
-5. [Client-Side Web Storage & Workers (51-70)](#5-client-side-web-storage--workers)
-6. [Advanced Browser APIs & Interactive Layouts (71-85)](#6-advanced-browser-apis--interactive-layouts)
-7. [Script Optimization, Best Practices & Validation (86-100)](#7-script-optimization-best-practices--validation)
-
----
-
 ## 1. Core Structure & Semantic Elements
 
 ### Q1: What is HTML5 and how does it differ from HTML4?
