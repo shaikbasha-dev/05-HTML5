@@ -1,8 +1,8 @@
-# 03 - Heading Tags in HTML
+# Heading Tags in HTML
 
 ## Introduction
 
-Heading tags are used to define headings and subheadings in an HTML document.
+Heading tags are used to define **headings and subheadings** in an HTML document.
 
 HTML provides six levels of headings:
 
@@ -39,7 +39,7 @@ HTML provides six levels of headings:
 
 #### Definition
 
-The `<h1>` tag defines the most important heading on a webpage.
+The `<h1>` tag defines the most **important heading on a webpage.**
 
 #### Features
 
@@ -65,7 +65,7 @@ Welcome to HTML
 
 #### Definition
 
-The `<h2>` tag defines a second-level heading.
+The `<h2>` tag defines a **second-level heading.**
 
 #### Features
 
@@ -84,7 +84,7 @@ The `<h2>` tag defines a second-level heading.
 
 #### Definition
 
-The `<h3>` tag defines a third-level heading.
+The `<h3>` tag defines a **third-level heading.**
 
 #### Features
 
@@ -102,7 +102,7 @@ The `<h3>` tag defines a third-level heading.
 
 #### Definition
 
-The `<h4>` tag defines a fourth-level heading.
+The `<h4>` tag defines a **fourth-level heading.**
 
 #### Features
 
@@ -120,7 +120,7 @@ The `<h4>` tag defines a fourth-level heading.
 
 #### Definition
 
-The `<h5>` tag defines a fifth-level heading.
+The `<h5>` tag defines a **fifth-level heading.**
 
 #### Features
 
@@ -139,7 +139,7 @@ The `<h5>` tag defines a fifth-level heading.
 
 #### Definition
 
-The `<h6>` tag defines the smallest heading.
+The `<h6>` tag defines the **smallest heading.**
 
 #### Features
 
@@ -176,7 +176,7 @@ The size of the headings decreases from `<h1>` to `<h6>`.
 
 ## Difference Between Heading Tags
 
-| Tag | Size         | Importance |
+| **Tag** | **Size**         | **Importance** |
 | --- | ------------ | ---------- |
 | h1  | Largest      | Highest    |
 | h2  | Large        | High       |
