@@ -1,8 +1,8 @@
-# 07 - Tables in HTML
+# Tables in HTML
 
 ## Introduction
 
-HTML Tables are used to organize and display data in rows and columns.
+HTML Tables are used to **organize and display data in rows and columns**.
 
 Tables are commonly used to represent:
 
@@ -67,7 +67,7 @@ HTML provides several tags to create tables such as:
 
 #### Definition
 
-The `<table>` tag is used to create a table in HTML.
+The `<table>` tag is used to **create a table in HTML**.
 
 It acts as a container that stores:
 
@@ -100,7 +100,7 @@ It acts as a container that stores:
 
 The `<tr>` tag stands for **Table Row**.
 
-It is used to create a row inside a table.
+It is used to **create a row inside a table**.
 
 #### Syntax
 
@@ -128,7 +128,7 @@ It is used to create a row inside a table.
 
 The `<th>` tag stands for **Table Header**.
 
-It is used to define heading cells inside a table.
+It is used to **define heading cells inside a table**.
 
 By default:
 
@@ -161,7 +161,7 @@ Student Name
 
 The `<td>` tag stands for **Table Data**.
 
-It is used to insert actual data inside table cells.
+It is used to **insert actual data inside table cells**.
 
 #### Syntax
 
@@ -187,7 +187,7 @@ Apple
 
 ### Definition
 
-The `border` attribute is used to display borders around the table and cells.
+The `border` attribute is used to **display borders around the table and cells**.
 
 ### Example
 
@@ -261,7 +261,7 @@ Creates the first row containing table headings.
 
 Displays:
 
-| Roll Number | Student Name | Academic CGPA |
+| **Roll Number** | **Student Name** | **Academic CGPA** |
 | ----------- | ------------ | ------------- |
 | 1           | Apple        | 9.8           |
 
@@ -283,7 +283,7 @@ Displays:
 
 Displays:
 
-| Roll Number | Student Name | Academic CGPA |
+| **Roll Number** | **Student Name** | **Academic CGPA** |
 | ----------- | ------------ | ------------- |
 | 2           | Banana       | 9.3           |
 
@@ -291,7 +291,7 @@ Displays:
 
 ## Output
 
-| Roll Number | Student Name | Academic CGPA |
+| **Roll Number** | **Student Name** | **Academic CGPA** |
 | ----------- | ------------ | ------------- |
 | 1           | Apple        | 9.8           |
 | 2           | Banana       | 9.3           |
@@ -300,7 +300,7 @@ Displays:
 
 ## Difference Between Table Tags
 
-| Tag       | Purpose               |
+| **Tag**       | **Purpose**               |
 | --------- | --------------------- |
 | `<table>` | Creates a table       |
 | `<tr>`    | Creates a row         |
