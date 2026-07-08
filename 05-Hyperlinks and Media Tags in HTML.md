@@ -1,4 +1,4 @@
-# 05 - Hyperlinks and Media Tags in HTML
+# Hyperlinks and Media Tags in HTML
 
 ## Introduction
 
