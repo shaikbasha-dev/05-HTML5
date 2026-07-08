@@ -1,4 +1,4 @@
-# 06 - Lists in HTML
+# Lists in HTML
 
 ## Introduction
 
@@ -94,7 +94,7 @@ The `<ol>` tag stands for **Ordered List**.
 
 It is used when items should appear in a specific order or sequence.
 
-By default, browsers display ordered lists with numbers.
+Note: By default, browsers display ordered lists with numbers.
 
 ### Syntax
 
@@ -351,7 +351,7 @@ Defines the description of that term.
 
 ## Difference Between Lists
 
-| List Type        | Tag    | Output                 |
+| **List Type**        | **Tag**    | **Output**                 |
 | ---------------- | ------ | ---------------------- |
 | Ordered List     | `<ol>` | Numbers                |
 | Unordered List   | `<ul>` | Bullets                |
