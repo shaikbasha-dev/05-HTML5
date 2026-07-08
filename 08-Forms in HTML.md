@@ -1,8 +1,8 @@
-# 08 - Forms in HTML
+# Forms in HTML
 
 ## Introduction
 
-HTML Forms are used to collect user input and send the entered data to a server for processing.
+HTML Forms are used to **collect user input and send the entered data to a server for processing**.
 
 Forms are one of the most important features of web applications because they allow users to:
 
@@ -146,7 +146,7 @@ HTML provides various form elements such as:
 
 ### Definition
 
-The `<form>` tag is used to create an HTML form.
+The `<form>` tag is used to **create an HTML form**.
 
 It acts as a container that holds all input controls.
 
@@ -204,7 +204,7 @@ POST sends data securely in the request body.
 
 ### Definition
 
-The `<input>` tag is used to receive user input.
+The `<input>` tag is **used to receive user input**.
 
 It is an **unpaired tag**.
 
@@ -323,7 +323,7 @@ Example:
 
 ### Definition
 
-The `<label>` tag provides a caption for an input element.
+The `<label>` tag provides a **caption for an input element**.
 
 It improves:
 
@@ -345,7 +345,7 @@ Enter Full Name:
 
 ### Definition
 
-The `<fieldset>` tag groups related form controls together.
+The `<fieldset>` tag **groups related form controls together**.
 
 It creates a border around form elements.
 
@@ -365,7 +365,7 @@ Form Elements
 
 ### Definition
 
-The `<legend>` tag defines a caption for the fieldset.
+The `<legend>` tag **defines a caption for the fieldset**.
 
 ### Example
 
@@ -389,7 +389,7 @@ appears on the fieldset border.
 
 ### Definition
 
-The `<datalist>` tag provides predefined suggestions for an input field.
+The `<datalist>` tag **provides predefined suggestions for an input field**.
 
 ### Example
 
@@ -411,7 +411,7 @@ The `<datalist>` tag provides predefined suggestions for an input field.
 
 ### Definition
 
-The `<option>` tag defines an item inside:
+The `<option>` tag **defines an item** inside:
 
 * `<select>`
 * `<datalist>`
