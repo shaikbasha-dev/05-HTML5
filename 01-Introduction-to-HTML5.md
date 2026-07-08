@@ -1,4 +1,4 @@
-# 01 - Introduction to HTML5
+# Introduction to HTML5
 
 ## Front-end Development
 
@@ -6,9 +6,9 @@ Front-end Development is the process of developing the user interface (UI) of a 
 
 Technologies used in Front-end Development:
 
-* HTML5
-* CSS3
-* JavaScript
+* **HTML5**
+* **CSS3**
+* **JavaScript**
 
 ---
 
@@ -18,18 +18,18 @@ Full Stack Development is the process of developing both the front-end and back-
 
 ### Layers of Full Stack Development
 
-1. Front-end
+**1. Front-end**
 
    * HTML5
    * CSS3
    * JavaScript
 
-2. Back-end
+**2. Back-end**
 
    * Java
    * Python
 
-3. Database
+**3. Database**
 
    * Oracle SQL
 
@@ -95,7 +95,7 @@ All these pages together form a website.
 
 ## Role of HTML, CSS and JavaScript
 
-| Technology | Purpose                               |
+| **Technology** | **Purpose**                               |
 | ---------- | ------------------------------------- |
 | HTML       | Provides Content and Structure        |
 | CSS        | Provides Styling and Layout           |
@@ -228,8 +228,8 @@ Examples:
 
 ## Important Points
 
-* HTML stands for Hyper Text Markup Language.
-* HTML is used to create the structure of web pages.
+* HTML stands for **Hyper Text Markup Language.**
+* HTML is used to **create the structure of web pages.**
 * HTML uses tags to communicate with browsers.
 * HTML is not a programming language.
 * HTML5 is the latest version of HTML.
