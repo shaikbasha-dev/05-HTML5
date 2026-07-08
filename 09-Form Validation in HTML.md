@@ -1,4 +1,4 @@
-# 09 - Form Validation in HTML
+# Form Validation in HTML
 
 ## Introduction
 
@@ -83,7 +83,7 @@ HTML5 provides several validation attributes such as:
 
 #### Definition
 
-The `<form>` tag is used to create a form that collects user input and sends it to the server.
+The `<form>` tag is used to **create a form that collects user input and sends it to the server**.
 
 #### Syntax
 
@@ -139,7 +139,7 @@ POST is preferred for secure data transmission.
 
 ### Definition
 
-The `<input>` tag accepts data from the user.
+The `<input>` tag **accepts data from the user**.
 
 It is an unpaired tag.
 
@@ -166,7 +166,7 @@ Example:
 
 ### Definition
 
-The `placeholder` attribute displays sample text inside the input box.
+The `placeholder` attribute displays **sample text inside the input box**.
 
 It disappears when the user starts typing.
 
@@ -190,7 +190,7 @@ appears as a hint inside the text field.
 
 ### Definition
 
-The `pattern` attribute is used to validate input using a Regular Expression (Regex).
+The `pattern` attribute is used to **validate input using a Regular Expression (Regex)**.
 
 If the entered value does not match the pattern, the form will not be submitted.
 
@@ -206,7 +206,7 @@ pattern="^[a-zA-Z0-9]{5,12}$"
 
 ### Meaning of the Pattern
 
-| Expression | Meaning                             |
+| **Expression** | **Meaning**                             |
 | ---------- | ----------------------------------- |
 | ^          | Beginning of text                   |
 | a-z        | Lowercase letters                   |
@@ -250,7 +250,7 @@ Reasons:
 
 ### Definition
 
-The `title` attribute displays an error message or hint when validation fails.
+The `title` attribute displays **an error message or hint when validation fails**.
 
 ### Example
 
@@ -266,7 +266,7 @@ If the user enters invalid data, this message is displayed automatically by the 
 
 ### Definition
 
-The `required` attribute makes an input field mandatory.
+The `required` attribute **makes an input field mandatory**.
 
 The form cannot be submitted until a value is entered.
 
@@ -282,7 +282,7 @@ required
 
 ### Definition
 
-The `<fieldset>` tag groups related form controls together.
+The `<fieldset>` tag **groups related form controls together**.
 
 It creates a border around the form section.
 
@@ -302,7 +302,7 @@ Form Controls
 
 ### Definition
 
-The `<legend>` tag defines a title for the fieldset.
+The `<legend>` tag **defines a title for the fieldset**.
 
 ### Example
 
@@ -331,7 +331,7 @@ appears on the fieldset border.
 
 ### Definition
 
-The submit button sends form data to the server after successful validation.
+The submit button **sends form data to the server after successful validation**.
 
 Output:
 
