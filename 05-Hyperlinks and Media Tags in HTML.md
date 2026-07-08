@@ -113,7 +113,7 @@ target="_blank"
 
 ### Definition
 
-The `<img>` tag is used to display images on a webpage.
+The `<img>` tag is used to **display images** on a webpage.
 
 It is an **unpaired tag**, which means it does not require a closing tag.
 
@@ -161,7 +161,7 @@ alt="Sample Image"
 
 ### Definition
 
-The `<audio>` tag is used to embed audio files into a webpage.
+The `<audio>` tag is used to **embed audio files** into a webpage.
 
 HTML5 supports audio playback without requiring external plugins.
 
@@ -199,7 +199,7 @@ Displays:
 
 ### Definition
 
-The `<video>` tag is used to embed video files into a webpage.
+The `<video>` tag is used to **embed video files** into a webpage.
 
 HTML5 allows videos to play directly in browsers.
 
