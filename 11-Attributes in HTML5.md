@@ -1,8 +1,8 @@
-# 11 - Attributes in HTML5
+# Attributes in HTML5
 
 ## Introduction
 
-Attributes provide additional information about HTML elements.
+Attributes provide **additional information about HTML elements**.
 
 They define:
 
@@ -13,7 +13,7 @@ They define:
 * Styling information
 * Browser behavior
 
-Attributes are always written inside the opening tag.
+Attributes are always **written inside the opening tag**.
 
 ### Syntax
 
@@ -44,7 +44,7 @@ Global attributes can be used with almost every HTML element.
 
 ### Definition
 
-The `id` attribute defines a unique identifier for an element.
+The `id` attribute **defines a unique identifier for an element**.
 
 It is mainly used by:
 
@@ -71,7 +71,7 @@ Example:
 
 ### Definition
 
-The `class` attribute assigns one or more class names to an element.
+The `class` attribute **assigns one or more class names to an element**.
 
 It is used for:
 
@@ -97,7 +97,7 @@ Example:
 
 ### Definition
 
-The `style` attribute is used to apply inline CSS to an element.
+The `style` attribute is used to **apply inline CSS to an element**.
 
 ### Syntax
 
@@ -119,7 +119,7 @@ Welcome
 
 ### Definition
 
-The `title` attribute displays extra information as a tooltip when the user moves the mouse over the element.
+The `title` attribute **displays extra information as a tooltip when the user moves the mouse over the element**.
 
 ### Syntax
 
@@ -141,7 +141,7 @@ Move Mouse Here
 
 ### Definition
 
-The `lang` attribute specifies the language of the webpage.
+The `lang` attribute **specifies the language of the webpage**.
 
 ### Syntax
 
@@ -167,7 +167,7 @@ en = English
 
 ### Definition
 
-The `hidden` attribute hides an element from the browser.
+The `hidden` attribute **hides an element from the browser**.
 
 ### Syntax
 
@@ -187,7 +187,7 @@ This content is hidden.
 
 # 2. Anchor `<a>` Attributes
 
-The `<a>` tag is used to create hyperlinks.
+The `<a>` tag is used to **create hyperlinks**.
 
 ---
 
@@ -195,7 +195,7 @@ The `<a>` tag is used to create hyperlinks.
 
 ### Definition
 
-The `href` attribute specifies the destination URL.
+The `href` attribute **specifies the destination URL**.
 
 ### Syntax
 
@@ -217,11 +217,11 @@ Google
 
 ### Definition
 
-The `target` attribute specifies where the linked document should open.
+The `target` attribute **specifies where the linked document should open**.
 
 ### Common Values
 
-| Value  | Meaning  |
+| **Value**  | **Meaning**  |
 | ------ | -------- |
 | _self  | Same tab |
 | _blank | New tab  |
@@ -241,7 +241,7 @@ Google
 
 ### Definition
 
-The `download` attribute tells the browser to download the linked file.
+The `download` attribute **tells the browser to download the linked file**.
 
 Example:
 
@@ -257,7 +257,7 @@ Download Resume
 
 ### Definition
 
-The `rel` attribute defines the relationship between the current page and linked page.
+The `rel` attribute **defines the relationship between the current page and linked page**.
 
 Example:
 
@@ -277,7 +277,7 @@ rel="noopener">
 
 ### Definition
 
-The `src` attribute specifies the image path.
+The `src` attribute **specifies the image path**.
 
 Example:
 
@@ -291,7 +291,7 @@ Example:
 
 ### Definition
 
-The `alt` attribute provides alternate text if the image cannot load.
+The `alt` attribute provides **alternate text if the image cannot load**.
 
 Example:
 
@@ -306,7 +306,7 @@ alt="Java Logo">
 
 ### Definition
 
-Specifies image width.
+Specifies **image width**.
 
 Example:
 
@@ -321,7 +321,7 @@ width="200">
 
 ### Definition
 
-Specifies image height.
+Specifies **image height**.
 
 Example:
 
@@ -336,7 +336,7 @@ height="150">
 
 ### Definition
 
-Controls image loading behavior.
+Controls **image loading behavior**.
 
 Example:
 
@@ -500,7 +500,7 @@ Example:
 
 ## poster
 
-Displays an image before video starts.
+Displays an **image before video starts**.
 
 Example:
 
