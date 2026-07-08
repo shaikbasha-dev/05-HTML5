@@ -1,4 +1,4 @@
-# 02 - Basic Structure of HTML
+# Basic Structure of HTML
 
 Every HTML document follows a standard structure. This structure helps browsers understand and render the web page correctly.
 
