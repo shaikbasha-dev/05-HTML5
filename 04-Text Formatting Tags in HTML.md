@@ -1,8 +1,8 @@
-# 04 - Text Formatting Tags in HTML
+# Text Formatting Tags in HTML
 
 ## Introduction
 
-Text Formatting Tags are used to format and display text in different styles on a webpage.
+Text Formatting Tags are used to **format and display text in different styles** on a webpage.
 
 HTML provides various formatting tags to make content:
 
@@ -78,7 +78,7 @@ Output:
 
 #### Definition
 
-The `<i>` tag is used to display text in *italic format*.
+The `<i>` tag is used to display text in **italic format**.
 
 #### Syntax
 
@@ -102,7 +102,7 @@ Output:
 
 #### Definition
 
-The `<u>` tag is used to underline text.
+The `<u>` tag is used to **underline text**.
 
 #### Syntax
 
@@ -126,7 +126,7 @@ Output:
 
 #### Definition
 
-The `<mark>` tag is used to highlight or mark important text.
+The `<mark>` tag is used to **highlight or mark important text**.
 
 By default, browsers display highlighted text with a yellow background.
 
@@ -154,7 +154,7 @@ Output:
 
 The `<s>` tag displays text with a line through it.
 
-It is used to represent content that is no longer accurate or relevant.
+It is used to represent content that is **no longer accurate or relevant.**
 
 #### Syntax
 
@@ -178,7 +178,7 @@ Output:
 
 #### Definition
 
-The `<br>` tag inserts a line break.
+The `<br>` tag inserts a **line break**.
 
 It is an **unpaired tag**, meaning it does not require a closing tag.
 
@@ -253,7 +253,7 @@ Technical Specification:
 </p>
 ```
 
-The `<p>` tag is used to define a paragraph.
+The `<p>` tag is used to define a **paragraph**.
 
 ---
 
@@ -273,7 +273,7 @@ Displays HTML5 in bold.
 <i>Hypertext Markup Language (HTML)</i>
 ```
 
-Displays the text in italic style.
+Displays the text in **italic style**.
 
 ---
 
