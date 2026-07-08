@@ -1,4 +1,4 @@
-# 10 - Phone Number Validation in HTML
+# Phone Number Validation in HTML
 
 ## Introduction
 
@@ -82,7 +82,7 @@ HTML5 provides the following attributes to validate phone numbers:
 
 #### Definition
 
-The `<form>` tag is used to collect user input and send the entered data to the server.
+The `<form>` tag is used to **collect user input and send the entered data to the server**.
 
 #### Syntax
 
@@ -105,7 +105,7 @@ The `<form>` tag is used to collect user input and send the entered data to the 
 
 ### Action Attribute
 
-The `action` attribute specifies where the form data will be sent after submission.
+The `action` attribute **specifies where the form data will be sent after submission**.
 
 Example:
 
@@ -117,7 +117,7 @@ action="save_contact.java"
 
 ### Method Attribute
 
-The `method` attribute specifies how the form data is transmitted.
+The `method` attribute **specifies how the form data is transmitted**.
 
 There are two common methods:
 
@@ -138,7 +138,7 @@ POST sends the form data securely through the request body.
 
 ### Definition
 
-The `type="tel"` input is used for entering telephone or mobile numbers.
+The `type="tel"` input is used for **entering telephone or mobile numbers**.
 
 Syntax:
 
@@ -159,7 +159,7 @@ Example:
 
 ### Definition
 
-The `placeholder` attribute displays sample text inside the input field.
+The `placeholder` attribute **displays sample text inside the input field**.
 
 It disappears automatically when the user starts typing.
 
@@ -181,7 +181,7 @@ Ex: 9876543210
 
 ### Definition
 
-The `pattern` attribute validates the entered value using a Regular Expression (Regex).
+The `pattern` attribute **validates the entered value using a Regular Expression (Regex)**.
 
 If the value does not match the pattern, the browser prevents form submission.
 
@@ -195,7 +195,7 @@ pattern="^[0-9]{10}$"
 
 ### Explanation of the Pattern
 
-| Pattern | Meaning            |
+| **Pattern** | **Meaning**            |
 | ------- | ------------------ |
 | ^       | Beginning of input |
 | [0-9]   | Digits from 0 to 9 |
@@ -236,7 +236,7 @@ Reasons:
 
 ### Definition
 
-The `title` attribute displays a helpful validation message when the input is invalid.
+The `title` attribute **displays a helpful validation message when the input is invalid**.
 
 Example:
 
@@ -252,7 +252,7 @@ If validation fails, the browser automatically shows this message.
 
 ### Definition
 
-The `required` attribute makes the field mandatory.
+The `required` attribute **makes the field mandatory**.
 
 The form cannot be submitted unless the user enters a valid value.
 
@@ -268,7 +268,7 @@ required
 
 ### Definition
 
-The `<fieldset>` tag groups related form controls inside a bordered box.
+The `<fieldset>` tag **groups related form controls inside a bordered box**.
 
 Example:
 
@@ -286,7 +286,7 @@ Form Controls
 
 ### Definition
 
-The `<legend>` tag provides a title for the fieldset.
+The `<legend>` tag **provides a title for the fieldset**.
 
 Example:
 
