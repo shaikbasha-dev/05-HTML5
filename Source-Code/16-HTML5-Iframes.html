@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--
+    =======================================================================
+                                HTML5 IFRAMES
+    =======================================================================
+
+    WHAT IS AN IFRAME?
+
+    • IFrame stands for Inline Frame.
+
+    • The <iframe> element is used to display another webpage
+      inside the current webpage.
+
+    • In simple words,
+
+      One webpage can be opened inside another webpage.
+
+    -----------------------------------------------------------------------
+
+    WHY DO WE USE IFRAME?
+
+    ✔ Display another website
+    ✔ Display another HTML page
+    ✔ Embed Google Maps
+    ✔ Embed YouTube Videos
+    ✔ Display PDF Documents
+    ✔ Payment Gateway Pages
+
+    -----------------------------------------------------------------------
+
+    REAL-WORLD EXAMPLES
+
+    • Google Maps
+    • YouTube Videos
+    • Online Forms
+    • Payment Gateway
+    • PDF Viewer
+
+    -----------------------------------------------------------------------
+
+    SYNTAX
+
+    <iframe
+        src="URL"
+        width="500"
+        height="300"
+        title="Description">
+    </iframe>
+
+    -----------------------------------------------------------------------
+
+    IMPORTANT ATTRIBUTES
+
+    src
+    ----
+    Specifies which webpage should be displayed.
+
+    width
+    -----
+    Specifies iframe width.
+
+    height
+    ------
+    Specifies iframe height.
+
+    title
+    -----
+    Improves accessibility.
+    Screen readers use this description.
+
+    name
+    ----
+    Gives a unique name to the iframe.
+
+    style
+    -----
+    Used to apply CSS styling.
+
+    =======================================================================
+    -->
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser Tab Title -->
+    <title>HTML5 IFrames</title>
+
+</head>
+
+<body>
+
+    <!-- ============================================================= -->
+    <!-- Main Heading                                                   -->
+    <!-- ============================================================= -->
+
+    <h1>HTML5 IFrames</h1>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 1 : Basic IFrame                                      -->
+    <!-- ============================================================= -->
+
+    <!--
+        This example loads another webpage
+        inside the current webpage.
+
+        Browser Output
+
+        +--------------------------------------+
+        |                                      |
+        |          example.com                 |
+        |                                      |
+        +--------------------------------------+
+    -->
+
+    <h2>1. Basic IFrame</h2>
+
+    <iframe
+        src="https://example.com"
+        width="500"
+        height="250"
+        title="Example Website">
+
+    </iframe>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 2 : Local HTML Page                                   -->
+    <!-- ============================================================= -->
+
+    <!--
+        Instead of loading an external website,
+
+        we can also display another HTML page
+        from our project.
+
+        Example
+
+        index.html
+
+                │
+
+                ▼
+
+        about.html
+    -->
+
+    <h2>2. Display Local HTML Page</h2>
+
+    <iframe
+        src="about.html"
+        width="500"
+        height="250"
+        title="About Page">
+
+    </iframe>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 3 : Named IFrame                                      -->
+    <!-- ============================================================= -->
+
+    <!--
+        The "name" attribute allows links
+        to open inside this iframe.
+    -->
+
+    <h2>3. Named IFrame</h2>
+
+    <iframe
+        name="myFrame"
+        width="500"
+        height="250"
+        title="Named IFrame">
+
+    </iframe>
+
+    <br><br>
+
+    <a href="https://example.com"
+       target="myFrame">
+
+        Open Example Website
+
+    </a>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 4 : Borderless IFrame                                 -->
+    <!-- ============================================================= -->
+
+    <!--
+        CSS can be used to remove
+        the default iframe border.
+    -->
+
+    <h2>4. Borderless IFrame</h2>
+
+    <iframe
+        src="https://example.com"
+        width="500"
+        height="250"
+        title="Borderless IFrame"
+        style="border:none;">
+
+    </iframe>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 5 : Google Maps                                       -->
+    <!-- ============================================================= -->
+
+    <!--
+        One of the most common uses of iframe
+        is embedding Google Maps.
+
+        Users can directly view
+        the location without leaving the website.
+    -->
+
+    <h2>5. Google Map</h2>
+
+    <iframe
+        src="https://www.google.com/maps?q=Bengaluru&output=embed"
+        width="500"
+        height="300"
+        title="Google Map">
+
+    </iframe>
+
+</body>
+
+</html>
