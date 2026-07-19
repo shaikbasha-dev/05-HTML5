@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser Tab Title -->
+    <title>HTML5 Advanced Table Features</title>
+
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+    <h1>HTML5 Advanced Table Features</h1>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 1 : Colspan -->
+    <!-- ====================================================== -->
+
+    <h2>1. Colspan Example</h2>
+
+    <table border="1">
+
+        <tr>
+            <th colspan="3">Student Details</th>
+        </tr>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Rahul</td>
+            <td>Java Full Stack</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Priya</td>
+            <td>HTML5</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 2 : Rowspan -->
+    <!-- ====================================================== -->
+
+    <h2>2. Rowspan Example</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Department</th>
+            <th>Employee</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">IT</td>
+            <td>Ravi</td>
+        </tr>
+
+        <tr>
+            <td>Anjali</td>
+        </tr>
+
+        <tr>
+            <td>HR</td>
+            <td>Vikram</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 3 : Colspan and Rowspan -->
+    <!-- ====================================================== -->
+
+    <h2>3. Colspan and Rowspan Together</h2>
+
+    <table border="1">
+
+        <tr>
+            <th rowspan="2">Student</th>
+            <th colspan="2">Marks</th>
+        </tr>
+
+        <tr>
+            <th>Theory</th>
+            <th>Practical</th>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>Priya</td>
+            <td>88</td>
+            <td>92</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 4 : Nested Table -->
+    <!-- ====================================================== -->
+
+    <h2>4. Nested Table Example</h2>
+
+    <table border="1">
+
+        <tr>
+
+            <th>Student</th>
+
+            <th>Details</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Rahul</td>
+
+            <td>
+
+                <table border="1">
+
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                    </tr>
+
+                    <tr>
+                        <td>Java</td>
+                        <td>6 Months</td>
+                    </tr>
+
+                </table>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 5 : Caption -->
+    <!-- ====================================================== -->
+
+    <h2>5. Table Caption</h2>
+
+    <table border="1">
+
+        <caption>
+            Employee Information
+        </caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+
+        <tr>
+            <td>201</td>
+            <td>John</td>
+            <td>Development</td>
+        </tr>
+
+        <tr>
+            <td>202</td>
+            <td>David</td>
+            <td>Testing</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 6 : Thead, Tbody and Tfoot -->
+    <!-- ====================================================== -->
+
+    <h2>6. Table Sections</h2>
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Laptop</td>
+                <td>₹65,000</td>
+            </tr>
+
+            <tr>
+                <td>Keyboard</td>
+                <td>₹1,500</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <td>Total Products</td>
+                <td>2</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <hr>
+
+    <!-- ====================================================== -->
+    <!-- Example 7 : Scope Attribute -->
+    <!-- ====================================================== -->
+
+    <h2>7. Scope Attribute</h2>
+
+    <table border="1">
+
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Student</th>
+            <td>Rahul</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
