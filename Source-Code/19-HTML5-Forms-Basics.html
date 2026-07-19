@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--
+    ==========================================================================
+                            HTML5 FORMS - BASICS
+    ==========================================================================
+
+    WHAT IS A FORM?
+
+    A form is used to collect information (data) from users.
+
+    Whenever you enter your name, email, password, phone number,
+    or upload a file on a website, you are using an HTML Form.
+
+    --------------------------------------------------------------------------
+
+    WHERE ARE FORMS USED?
+
+    • Login Page
+    • Registration Page
+    • Contact Form
+    • Student Admission Form
+    • Job Application Form
+    • Online Shopping Checkout
+    • Feedback Form
+
+    --------------------------------------------------------------------------
+
+    WHY DO WE USE FORMS?
+
+    Forms allow users to send information to a website.
+
+    Examples
+
+    ✔ Login
+    ✔ Register
+    ✔ Search
+    ✔ Contact Us
+    ✔ Online Payments
+
+    --------------------------------------------------------------------------
+
+    FORM SYNTAX
+
+    <form>
+
+        Form Elements
+
+    </form>
+
+    --------------------------------------------------------------------------
+
+    IMPORTANT ATTRIBUTES
+
+    action
+    ------
+    Specifies where the form data should be sent.
+
+    method
+    ------
+    Specifies how the data is sent.
+
+    Common methods
+
+    • GET
+    • POST
+
+    ==========================================================================
+
+    -->
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser Tab Title -->
+    <title>HTML5 Forms Basics</title>
+
+</head>
+
+<body>
+
+    <!-- =============================================================== -->
+    <!-- Main Heading                                                    -->
+    <!-- =============================================================== -->
+
+    <h1>HTML5 Forms Basics</h1>
+
+    <hr>
+
+    <!-- =============================================================== -->
+    <!-- Example 1 : Simple Form                                         -->
+    <!-- =============================================================== -->
+
+    <!--
+        This is a basic HTML Form.
+
+        The form contains
+
+        • Name
+        • Email
+        • Password
+        • Submit Button
+    -->
+
+    <h2>1. Simple Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <!-- User Name -->
+
+        <label for="name">
+
+            Full Name
+
+        </label>
+
+        <br>
+
+        <input
+            type="text"
+            id="name"
+            name="name">
+
+        <br><br>
+
+        <!-- Email Address -->
+
+        <label for="email">
+
+            Email Address
+
+        </label>
+
+        <br>
+
+        <input
+            type="email"
+            id="email"
+            name="email">
+
+        <br><br>
+
+        <!-- Password -->
+
+        <label for="password">
+
+            Password
+
+        </label>
+
+        <br>
+
+        <input
+            type="password"
+            id="password"
+            name="password">
+
+        <br><br>
+
+        <!-- Submit Button -->
+
+        <input
+            type="submit"
+            value="Register">
+
+    </form>
+
+    <hr>
+
+    <!-- =============================================================== -->
+    <!-- Example 2 : Login Form                                          -->
+    <!-- =============================================================== -->
+
+    <!--
+        A Login Form usually asks for
+
+        • Username
+        • Password
+    -->
+
+    <h2>2. Login Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="username">
+
+            Username
+
+        </label>
+
+        <br>
+
+        <input
+            type="text"
+            id="username"
+            name="username">
+
+        <br><br>
+
+        <label for="loginPassword">
+
+            Password
+
+        </label>
+
+        <br>
+
+        <input
+            type="password"
+            id="loginPassword"
+            name="password">
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Login">
+
+    </form>
+
+    <hr>
+
+    <!-- =============================================================== -->
+    <!-- Example 3 : GET Method                                          -->
+    <!-- =============================================================== -->
+
+    <!--
+        GET Method
+
+        • Sends data through the URL.
+
+        Example
+
+        search.html?name=Rahul
+    -->
+
+    <h2>3. GET Method Example</h2>
+
+    <form action="search.html"
+          method="get">
+
+        <label for="search">
+
+            Search
+
+        </label>
+
+        <br>
+
+        <input
+            type="text"
+            id="search"
+            name="keyword">
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Search">
+
+    </form>
+
+    <hr>
+
+    <!-- =============================================================== -->
+    <!-- Example 4 : POST Method                                         -->
+    <!-- =============================================================== -->
+
+    <!--
+        POST Method
+
+        • Sends data securely.
+
+        • Data is NOT displayed in the URL.
+
+        Mostly used for
+
+        ✔ Login
+        ✔ Registration
+        ✔ Payments
+    -->
+
+    <h2>4. POST Method Example</h2>
+
+    <form action="register.html"
+          method="post">
+
+        <label for="student">
+
+            Student Name
+
+        </label>
+
+        <br>
+
+        <input
+            type="text"
+            id="student"
+            name="student">
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Submit">
+
+    </form>
+
+</body>
+
+</html>
