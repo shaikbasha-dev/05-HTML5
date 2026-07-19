@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser Tab Title -->
+    <title>HTML5 Images</title>
+
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+    <h1>HTML5 Images</h1>
+
+    <!-- Introduction -->
+    <p>
+        The <strong>&lt;img&gt;</strong> element is used to display images on a
+        webpage. Images improve the visual appearance of websites and help users
+        understand content more effectively.
+    </p>
+
+    <hr>
+
+    <!-- Basic Image Example -->
+    <h2>Basic Image</h2>
+
+    <img src="images/html5-logo.png"
+         alt="HTML5 Logo"
+         width="250">
+
+    <p>
+        The image above displays the HTML5 logo using the
+        <strong>&lt;img&gt;</strong> element.
+    </p>
+
+    <hr>
+
+    <!-- Image with Width and Height -->
+    <h2>Image with Width and Height</h2>
+
+    <img src="images/web-development.jpg"
+         alt="Web Development"
+         width="350"
+         height="220">
+
+    <hr>
+
+    <!-- Image with Title -->
+    <h2>Image with Title Attribute</h2>
+
+    <img src="images/laptop.jpg"
+         alt="Laptop"
+         title="Laptop for Web Development"
+         width="300">
+
+    <hr>
+
+    <!-- Lazy Loading -->
+    <h2>Lazy Loading Image</h2>
+
+    <img src="images/programming.jpg"
+         alt="Programming"
+         width="350"
+         loading="lazy">
+
+    <p>
+        The <strong>loading="lazy"</strong> attribute delays image loading until
+        the image approaches the visible area of the webpage.
+    </p>
+
+    <hr>
+
+    <!-- Image inside Hyperlink -->
+    <h2>Clickable Image</h2>
+
+    <a href="https://developer.mozilla.org" target="_blank">
+
+        <img src="images/mdn-logo.png"
+             alt="MDN Web Docs"
+             width="220">
+
+    </a>
+
+    <p>
+        Clicking the image opens the MDN Web Docs website.
+    </p>
+
+    <hr>
+
+    <!-- Best Practices -->
+    <h2>Best Practices</h2>
+
+    <ul>
+
+        <li>Always provide a meaningful <strong>alt</strong> attribute.</li>
+
+        <li>Use optimized image sizes to improve webpage performance.</li>
+
+        <li>Specify image dimensions whenever possible.</li>
+
+        <li>Use <strong>loading="lazy"</strong> for better page loading performance.</li>
+
+        <li>Choose appropriate image formats such as PNG, JPG, SVG, or WebP.</li>
+
+    </ul>
+
+</body>
+
+</html>
