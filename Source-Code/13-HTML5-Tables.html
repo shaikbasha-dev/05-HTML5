@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser Tab Title -->
+    <title>HTML5 Tables</title>
+
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+    <h1>HTML5 Tables</h1>
+
+    <!-- Introduction -->
+    <p>
+        HTML5 tables are used to display data in rows and columns.
+        A table is created using the <strong>&lt;table&gt;</strong> element,
+        where rows are defined using <strong>&lt;tr&gt;</strong>,
+        header cells using <strong>&lt;th&gt;</strong>, and
+        data cells using <strong>&lt;td&gt;</strong>.
+    </p>
+
+    <hr>
+
+    <!-- Student Information Table -->
+    <h2>Student Information</h2>
+
+    <table border="1">
+
+        <caption>
+            Student Details
+        </caption>
+
+        <thead>
+
+            <tr>
+
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>City</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>101</td>
+                <td>Rahul</td>
+                <td>Java Full Stack</td>
+                <td>Bengaluru</td>
+
+            </tr>
+
+            <tr>
+
+                <td>102</td>
+                <td>Priya</td>
+                <td>HTML5 & CSS3</td>
+                <td>Hyderabad</td>
+
+            </tr>
+
+            <tr>
+
+                <td>103</td>
+                <td>Arjun</td>
+                <td>JavaScript</td>
+                <td>Chennai</td>
+
+            </tr>
+
+            <tr>
+
+                <td>104</td>
+                <td>Anjali</td>
+                <td>Oracle SQL</td>
+                <td>Pune</td>
+
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+
+                <td colspan="4">
+                    Total Students : 4
+                </td>
+
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <hr>
+
+    <!-- Table Elements -->
+    <h2>HTML Table Elements</h2>
+
+    <ul>
+
+        <li><strong>&lt;table&gt;</strong> - Creates a table.</li>
+
+        <li><strong>&lt;caption&gt;</strong> - Provides a title for the table.</li>
+
+        <li><strong>&lt;thead&gt;</strong> - Defines the table header section.</li>
+
+        <li><strong>&lt;tbody&gt;</strong> - Defines the main table content.</li>
+
+        <li><strong>&lt;tfoot&gt;</strong> - Defines the footer section.</li>
+
+        <li><strong>&lt;tr&gt;</strong> - Defines a table row.</li>
+
+        <li><strong>&lt;th&gt;</strong> - Defines a table heading cell.</li>
+
+        <li><strong>&lt;td&gt;</strong> - Defines a table data cell.</li>
+
+    </ul>
+
+    <hr>
+
+    <!-- Best Practices -->
+    <h2>Best Practices</h2>
+
+    <ul>
+
+        <li>Use <strong>&lt;caption&gt;</strong> to provide a meaningful title.</li>
+
+        <li>Separate header, body, and footer using semantic table elements.</li>
+
+        <li>Use <strong>&lt;th&gt;</strong> for headings instead of <strong>&lt;td&gt;</strong>.</li>
+
+        <li>Keep tables well-organized and easy to read.</li>
+
+        <li>Use CSS for styling instead of the border attribute in production websites.</li>
+
+    </ul>
+
+</body>
+
+</html>
