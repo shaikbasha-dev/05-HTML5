@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--
+    =======================================================================
+                    HTML5 BLOCK LEVEL VS INLINE ELEMENTS
+    =======================================================================
+
+    WHAT ARE HTML ELEMENTS?
+
+    HTML elements are the building blocks of a webpage.
+
+    Every webpage is created using different HTML elements like:
+
+    • <h1>
+    • <p>
+    • <div>
+    • <span>
+    • <img>
+    • <a>
+
+    -----------------------------------------------------------------------
+
+    HTML elements are mainly divided into TWO types.
+
+    1. Block-Level Elements
+    2. Inline Elements
+
+    -----------------------------------------------------------------------
+
+    1. BLOCK-LEVEL ELEMENTS
+
+    A block-level element always starts on a NEW LINE.
+
+    It occupies the FULL WIDTH available.
+
+    Examples
+
+    • <h1>
+    • <p>
+    • <div>
+    • <table>
+    • <section>
+    • <article>
+
+    Example
+
+    +-------------------------------------------+
+    | Heading                                   |
+    +-------------------------------------------+
+
+    +-------------------------------------------+
+    | Paragraph                                 |
+    +-------------------------------------------+
+
+    -----------------------------------------------------------------------
+
+    2. INLINE ELEMENTS
+
+    An inline element DOES NOT start on a new line.
+
+    It only occupies the space required by its content.
+
+    Examples
+
+    • <span>
+    • <a>
+    • <strong>
+    • <em>
+    • <img>
+
+    Example
+
+    Welcome <strong>Rahul</strong> to HTML5.
+
+    -----------------------------------------------------------------------
+
+    WHEN TO USE BLOCK ELEMENTS?
+
+    ✔ Creating page sections
+    ✔ Headings
+    ✔ Paragraphs
+    ✔ Layout Design
+
+    -----------------------------------------------------------------------
+
+    WHEN TO USE INLINE ELEMENTS?
+
+    ✔ Highlight Text
+    ✔ Hyperlinks
+    ✔ Images inside text
+    ✔ Small pieces of content
+
+    =======================================================================
+    -->
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser Tab Title -->
+    <title>HTML5 Block vs Inline Elements</title>
+
+</head>
+
+<body>
+
+    <!-- ============================================================= -->
+    <!-- Main Heading                                                  -->
+    <!-- ============================================================= -->
+
+    <h1>HTML5 Block vs Inline Elements</h1>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 1 : Block-Level Elements                              -->
+    <!-- ============================================================= -->
+
+    <!--
+        Every block element starts on a NEW LINE.
+
+        Notice how each element appears one below another.
+    -->
+
+    <h2>1. Block-Level Elements</h2>
+
+    <h3>HTML5 Tutorial</h3>
+
+    <p>This is the first paragraph.</p>
+
+    <div>This is a div container.</div>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 2 : Inline Elements                                   -->
+    <!-- ============================================================= -->
+
+    <!--
+        Inline elements stay on the SAME LINE.
+
+        They only occupy the required width.
+    -->
+
+    <h2>2. Inline Elements</h2>
+
+    <p>
+
+        Welcome
+
+        <strong>Rahul</strong>
+
+        to
+
+        <span>HTML5 Programming.</span>
+
+    </p>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 3 : Hyperlink (Inline Element)                        -->
+    <!-- ============================================================= -->
+
+    <!--
+        The anchor tag is an inline element.
+
+        It appears on the same line with surrounding text.
+    -->
+
+    <h2>3. Anchor Element</h2>
+
+    <p>
+
+        Visit
+
+        <a href="https://example.com">
+
+            Example Website
+
+        </a>
+
+        for practice.
+
+    </p>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 4 : Image (Inline Element)                            -->
+    <!-- ============================================================= -->
+
+    <!--
+        Images are inline elements.
+
+        They can appear inside a paragraph.
+    -->
+
+    <h2>4. Image Example</h2>
+
+    <p>
+
+        HTML5 Logo
+
+        <img
+            src="images/html5-logo.png"
+            alt="HTML5 Logo"
+            width="60">
+
+    </p>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 5 : Block and Inline Together                         -->
+    <!-- ============================================================= -->
+
+    <!--
+        A block element can contain
+        multiple inline elements.
+    -->
+
+    <h2>5. Block and Inline Together</h2>
+
+    <div>
+
+        <p>
+
+            Student Name :
+
+            <strong>Rahul</strong>
+
+        </p>
+
+        <p>
+
+            Course :
+
+            <span>Java Full Stack</span>
+
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 6 : Common Block-Level Elements                       -->
+    <!-- ============================================================= -->
+
+    <h2>6. Common Block-Level Elements</h2>
+
+    <ul>
+
+        <li>&lt;h1&gt; to &lt;h6&gt;</li>
+
+        <li>&lt;p&gt;</li>
+
+        <li>&lt;div&gt;</li>
+
+        <li>&lt;table&gt;</li>
+
+        <li>&lt;section&gt;</li>
+
+        <li>&lt;article&gt;</li>
+
+    </ul>
+
+    <hr>
+
+    <!-- ============================================================= -->
+    <!-- Example 7 : Common Inline Elements                            -->
+    <!-- ============================================================= -->
+
+    <h2>7. Common Inline Elements</h2>
+
+    <ul>
+
+        <li>&lt;span&gt;</li>
+
+        <li>&lt;a&gt;</li>
+
+        <li>&lt;strong&gt;</li>
+
+        <li>&lt;em&gt;</li>
+
+        <li>&lt;img&gt;</li>
+
+    </ul>
+
+</body>
+
+</html>
