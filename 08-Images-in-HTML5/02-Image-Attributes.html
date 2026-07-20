@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Image Attributes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+            margin:40px;
+            line-height:1.6;
+        }
+
+        h1{
+            text-align:center;
+            color:#0d6efd;
+        }
+
+        section{
+            background:#ffffff;
+            margin-bottom:25px;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0 0 8px rgba(0,0,0,0.1);
+        }
+
+        img{
+            border:2px solid #333;
+            margin-top:10px;
+        }
+
+        code{
+            background:#eeeeee;
+            padding:2px 6px;
+            border-radius:4px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        table, th, td{
+            border:1px solid #999;
+        }
+
+        th{
+            background:#0d6efd;
+            color:white;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+
+<h1>HTML5 Image Attributes</h1>
+
+<section>
+
+    <h2>1. src Attribute</h2>
+
+    <p>
+        The <code>src</code> attribute specifies the location of the image.
+    </p>
+
+    <img
+        src="images/html5-logo.png"
+        alt="HTML5 Logo">
+
+</section>
+
+<section>
+
+    <h2>2. alt Attribute</h2>
+
+    <p>
+        The <code>alt</code> attribute provides alternative text if the image cannot be displayed.
+    </p>
+
+    <img
+        src="images/image-not-found.png"
+        alt="Sample Image Not Available">
+
+</section>
+
+<section>
+
+    <h2>3. width Attribute</h2>
+
+    <img
+        src="images/mountain.jpg"
+        alt="Mountain"
+        width="350">
+
+</section>
+
+<section>
+
+    <h2>4. height Attribute</h2>
+
+    <img
+        src="images/flower.jpg"
+        alt="Flower"
+        height="220">
+
+</section>
+
+<section>
+
+    <h2>5. width and height Attributes</h2>
+
+    <img
+        src="images/lake.jpg"
+        alt="Lake"
+        width="400"
+        height="250">
+
+</section>
+
+<section>
+
+    <h2>6. title Attribute</h2>
+
+    <p>Move your mouse pointer over the image.</p>
+
+    <img
+        src="images/sunrise.jpg"
+        alt="Sunrise"
+        title="Beautiful Sunrise">
+
+</section>
+
+<section>
+
+    <h2>7. loading Attribute (Lazy Loading)</h2>
+
+    <p>
+        The image below uses <code>loading="lazy"</code>. It loads only when it approaches the visible area of the page.
+    </p>
+
+    <img
+        src="images/landscape.jpg"
+        alt="Landscape"
+        loading="lazy"
+        width="450">
+
+</section>
+
+<section>
+
+    <h2>Summary of Image Attributes</h2>
+
+    <table>
+
+        <tr>
+            <th>Attribute</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td>src</td>
+            <td>Specifies the image file location.</td>
+        </tr>
+
+        <tr>
+            <td>alt</td>
+            <td>Provides alternative text.</td>
+        </tr>
+
+        <tr>
+            <td>width</td>
+            <td>Sets image width.</td>
+        </tr>
+
+        <tr>
+            <td>height</td>
+            <td>Sets image height.</td>
+        </tr>
+
+        <tr>
+            <td>title</td>
+            <td>Displays a tooltip.</td>
+        </tr>
+
+        <tr>
+            <td>loading</td>
+            <td>Controls when the image is loaded.</td>
+        </tr>
+
+    </table>
+
+</section>
+
+</body>
+</html>
