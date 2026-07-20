@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Images Demo - HTML5</title>
+
+    <style>
+
+        *{
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+            margin:40px;
+            line-height:1.6;
+        }
+
+        h1{
+            text-align:center;
+            color:#0d6efd;
+            margin-bottom:40px;
+        }
+
+        section{
+            background:#ffffff;
+            margin-bottom:25px;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0 0 8px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#333333;
+        }
+
+        img{
+            border:2px solid #333;
+            margin-top:15px;
+            max-width:100%;
+            height:auto;
+        }
+
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            justify-content:center;
+        }
+
+        .gallery img{
+            width:250px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        table, th, td{
+            border:1px solid #999;
+        }
+
+        th{
+            background:#0d6efd;
+            color:white;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:left;
+        }
+
+        code{
+            background:#eeeeee;
+            padding:2px 6px;
+            border-radius:4px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<h1>Complete HTML5 Images Demonstration</h1>
+
+<section>
+
+    <h2>1. Basic Image</h2>
+
+    <img
+        src="images/nature.jpg"
+        alt="Beautiful Nature">
+
+</section>
+
+<section>
+
+    <h2>2. Image Attributes</h2>
+
+    <img
+        src="images/mountain.jpg"
+        alt="Mountain Landscape"
+        width="500"
+        height="300"
+        title="Mountain View"
+        loading="lazy">
+
+</section>
+
+<section>
+
+    <h2>3. Relative Image Path</h2>
+
+    <img
+        src="images/html5-logo.png"
+        alt="HTML5 Logo">
+
+</section>
+
+<section>
+
+    <h2>4. Absolute Image Path</h2>
+
+    <img
+        src="https://via.placeholder.com/500x250"
+        alt="Placeholder Image">
+
+</section>
+
+<section>
+
+    <h2>5. Responsive Image</h2>
+
+    <img
+        src="images/responsive-banner.jpg"
+        alt="Responsive Banner">
+
+</section>
+
+<section>
+
+    <h2>6. Responsive Image using Picture Element</h2>
+
+    <picture>
+
+        <source
+            media="(max-width:600px)"
+            srcset="images/mobile-banner.jpg">
+
+        <source
+            media="(max-width:1024px)"
+            srcset="images/tablet-banner.jpg">
+
+        <img
+            src="images/desktop-banner.jpg"
+            alt="Responsive Picture">
+
+    </picture>
+
+</section>
+
+<section>
+
+    <h2>7. Responsive Image using srcset</h2>
+
+    <img
+        src="images/medium.jpg"
+        srcset="
+            images/small.jpg 480w,
+            images/medium.jpg 800w,
+            images/large.jpg 1200w"
+        sizes="
+            (max-width:600px) 100vw,
+            (max-width:1024px) 75vw,
+            50vw"
+        alt="Responsive Landscape">
+
+</section>
+
+<section>
+
+    <h2>8. Image Gallery</h2>
+
+    <div class="gallery">
+
+        <img
+            src="images/image1.jpg"
+            alt="Gallery Image 1">
+
+        <img
+            src="images/image2.jpg"
+            alt="Gallery Image 2">
+
+        <img
+            src="images/image3.jpg"
+            alt="Gallery Image 3">
+
+        <img
+            src="images/image4.jpg"
+            alt="Gallery Image 4">
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>9. Image Best Practices Checklist</h2>
+
+    <table>
+
+        <tr>
+            <th>Practice</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Meaningful <code>alt</code> Attribute</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <td>Responsive Images</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <td>Optimized Image Size</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <td>Lazy Loading</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <td>Appropriate File Format</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <td>Organized Folder Structure</td>
+            <td>✔</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section>
+
+    <h2>10. Summary</h2>
+
+    <p>
+
+        This demonstration combines the major HTML5 image concepts including:
+
+    </p>
+
+    <ul>
+
+        <li>Basic Image Element</li>
+        <li>Image Attributes</li>
+        <li>Relative and Absolute Paths</li>
+        <li>Responsive Images</li>
+        <li>Picture Element</li>
+        <li>srcset and sizes Attributes</li>
+        <li>Image Gallery</li>
+        <li>Best Practices</li>
+
+    </ul>
+
+</section>
+
+</body>
+</html>
