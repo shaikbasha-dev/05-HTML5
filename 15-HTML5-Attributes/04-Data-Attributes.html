@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Attributes Demo</title>
+
+    <style>
+
+        body{
+            font-family:Arial, sans-serif;
+            margin:40px;
+            background:#f5f5f5;
+        }
+
+        h1{
+            color:#1f4e79;
+        }
+
+        .product{
+            background:white;
+            border:1px solid #cccccc;
+            border-radius:8px;
+            padding:20px;
+            margin-bottom:20px;
+        }
+
+        button{
+            padding:10px 20px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        #output{
+            margin-top:20px;
+            font-weight:bold;
+            color:green;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>HTML5 Data Attributes Demonstration</h1>
+
+    <div
+        id="productCard"
+        class="product"
+        data-id="101"
+        data-name="Laptop"
+        data-brand="Dell"
+        data-price="65000">
+
+        <h2>Dell Inspiron Laptop</h2>
+
+        <p>
+            Click the button below to read the custom data attributes using JavaScript.
+        </p>
+
+        <button onclick="showProductDetails()">
+            Show Product Details
+        </button>
+
+    </div>
+
+    <p id="output"></p>
+
+    <script>
+
+        function showProductDetails(){
+
+            const product =
+                document.getElementById("productCard");
+
+            const id =
+                product.dataset.id;
+
+            const name =
+                product.dataset.name;
+
+            const brand =
+                product.dataset.brand;
+
+            const price =
+                product.dataset.price;
+
+            document.getElementById("output").innerHTML =
+                "Product ID : " + id + "<br>" +
+                "Product Name : " + name + "<br>" +
+                "Brand : " + brand + "<br>" +
+                "Price : ₹" + price;
+
+            console.log(product.dataset);
+
+        }
+
+    </script>
+
+</body>
+</html>
