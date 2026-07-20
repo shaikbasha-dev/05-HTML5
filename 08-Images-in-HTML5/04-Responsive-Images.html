@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Responsive Images</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#f4f4f4;
+            margin:40px;
+            line-height:1.6;
+        }
+
+        h1{
+            text-align:center;
+            color:#0d6efd;
+        }
+
+        section{
+            background:#ffffff;
+            padding:20px;
+            margin-bottom:25px;
+            border-radius:8px;
+            box-shadow:0 0 8px rgba(0,0,0,0.1);
+        }
+
+        img{
+            border:2px solid #333;
+            margin-top:10px;
+        }
+
+        .responsive-image{
+            max-width:100%;
+            height:auto;
+        }
+
+        .container{
+            width:70%;
+            margin:auto;
+        }
+
+        code{
+            background:#eeeeee;
+            padding:2px 6px;
+            border-radius:4px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        table, th, td{
+            border:1px solid #999;
+        }
+
+        th{
+            background:#0d6efd;
+            color:#ffffff;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Responsive Images in HTML5</h1>
+
+<section>
+
+    <h2>1. Fixed Width Image</h2>
+
+    <p>
+        This image has a fixed width and is not fully responsive.
+    </p>
+
+    <img
+        src="images/mountain.jpg"
+        alt="Mountain"
+        width="500">
+
+</section>
+
+<section>
+
+    <h2>2. Responsive Image Using CSS</h2>
+
+    <p>
+        The image automatically adjusts to fit its parent container using
+        <code>max-width:100%</code> and <code>height:auto</code>.
+    </p>
+
+    <div class="container">
+
+        <img
+            src="images/nature.jpg"
+            alt="Nature"
+            class="responsive-image">
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>3. Responsive Image Using the Picture Element</h2>
+
+    <picture>
+
+        <source
+            media="(max-width:600px)"
+            srcset="images/mobile-banner.jpg">
+
+        <source
+            media="(max-width:1024px)"
+            srcset="images/tablet-banner.jpg">
+
+        <img
+            src="images/desktop-banner.jpg"
+            alt="Responsive Banner"
+            class="responsive-image">
+
+    </picture>
+
+</section>
+
+<section>
+
+    <h2>4. Responsive Image Using srcset</h2>
+
+    <img
+        src="images/medium.jpg"
+        srcset="
+            images/small.jpg 480w,
+            images/medium.jpg 800w,
+            images/large.jpg 1200w"
+        sizes="
+            (max-width:600px) 100vw,
+            (max-width:1024px) 75vw,
+            50vw"
+        alt="Responsive Landscape"
+        class="responsive-image">
+
+</section>
+
+<section>
+
+    <h2>Advantages of Responsive Images</h2>
+
+    <table>
+
+        <tr>
+            <th>Benefit</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>Better Performance</td>
+            <td>Loads only the appropriate image size.</td>
+        </tr>
+
+        <tr>
+            <td>Faster Loading</td>
+            <td>Reduces unnecessary downloads.</td>
+        </tr>
+
+        <tr>
+            <td>Improved User Experience</td>
+            <td>Displays correctly on every device.</td>
+        </tr>
+
+        <tr>
+            <td>Bandwidth Saving</td>
+            <td>Optimizes network usage.</td>
+        </tr>
+
+        <tr>
+            <td>SEO Benefits</td>
+            <td>Improves page performance and Core Web Vitals.</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section>
+
+    <h2>Best Practices</h2>
+
+    <ul>
+        <li>Use <code>max-width:100%</code> for responsive layouts.</li>
+        <li>Maintain the image aspect ratio using <code>height:auto</code>.</li>
+        <li>Use the <code>&lt;picture&gt;</code> element for device-specific images.</li>
+        <li>Use <code>srcset</code> and <code>sizes</code> for multiple resolutions.</li>
+        <li>Optimize images before uploading.</li>
+        <li>Always include meaningful <code>alt</code> text.</li>
+    </ul>
+
+</section>
+
+</body>
+</html>
