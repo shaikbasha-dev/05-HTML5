@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Audio and Video Attributes</title>
+</head>
+
+<body>
+
+    <h1>HTML5 Audio and Video Attributes Example</h1>
+
+    <p>
+        This example demonstrates commonly used attributes of the HTML5
+        <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements.
+    </p>
+
+    <hr>
+
+    <h2>Audio Example</h2>
+
+    <audio controls loop preload="metadata">
+        <source src="audio/sample.mp3" type="audio/mpeg">
+
+        Your browser does not support the HTML5 audio element.
+    </audio>
+
+    <h3>Audio Attributes Used</h3>
+
+    <ul>
+        <li><strong>controls</strong> - Displays playback controls.</li>
+        <li><strong>loop</strong> - Repeats the audio automatically.</li>
+        <li><strong>preload="metadata"</strong> - Loads only audio metadata.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Video Example</h2>
+
+    <video controls
+           width="700"
+           height="400"
+           poster="images/video-thumbnail.jpg"
+           preload="metadata"
+           muted>
+
+        <source src="video/sample.mp4" type="video/mp4">
+
+        Your browser does not support the HTML5 video element.
+    </video>
+
+    <h3>Video Attributes Used</h3>
+
+    <ul>
+        <li><strong>controls</strong> - Displays playback controls.</li>
+        <li><strong>width</strong> - Sets the video width.</li>
+        <li><strong>height</strong> - Sets the video height.</li>
+        <li><strong>poster</strong> - Displays a thumbnail before playback.</li>
+        <li><strong>preload="metadata"</strong> - Loads only video metadata.</li>
+        <li><strong>muted</strong> - Starts the video without sound.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Summary</h2>
+
+    <p>
+        HTML5 provides several useful attributes for controlling the behavior
+        and appearance of audio and video elements. These attributes improve
+        usability, accessibility, and performance while delivering a better
+        multimedia experience.
+    </p>
+
+</body>
+
+</html>
