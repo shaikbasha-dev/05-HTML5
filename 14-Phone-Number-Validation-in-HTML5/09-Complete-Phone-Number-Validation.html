@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Complete Phone Number Validation</title>
+
+</head>
+
+<body>
+
+    <h1>Complete Phone Number Validation</h1>
+
+    <form id="phoneForm">
+
+        <label for="phone">
+
+            Indian Mobile Number
+
+        </label>
+
+        <br><br>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="9876543210"
+            minlength="10"
+            maxlength="10"
+            pattern="[6-9][0-9]{9}"
+            title="Enter a valid 10-digit Indian mobile number."
+            required>
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Submit">
+
+    </form>
+
+    <script>
+
+        const form =
+            document.getElementById("phoneForm");
+
+        const phone =
+            document.getElementById("phone");
+
+        form.addEventListener("submit", function (event) {
+
+            const phonePattern =
+                /^[6-9][0-9]{9}$/;
+
+            if (phone.value.trim() === "") {
+
+                phone.setCustomValidity(
+                    "Mobile number is required."
+                );
+
+            }
+            else if (!phonePattern.test(phone.value)) {
+
+                phone.setCustomValidity(
+                    "Enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9."
+                );
+
+            }
+            else {
+
+                phone.setCustomValidity("");
+
+            }
+
+            if (!phone.checkValidity()) {
+
+                phone.reportValidity();
+
+                event.preventDefault();
+
+            }
+
+        });
+
+        phone.addEventListener("input", function () {
+
+            phone.setCustomValidity("");
+
+        });
+
+    </script>
+
+</body>
+
+</html>
