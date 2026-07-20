@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Attributes Demo</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:40px;
+            line-height:1.8;
+            background:#f5f5f5;
+        }
+
+        h1{
+            color:#1f4e79;
+        }
+
+        .card{
+            background:white;
+            border:1px solid #ccc;
+            border-radius:8px;
+            padding:20px;
+            margin-top:20px;
+        }
+
+        .highlight{
+            color:green;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML5 Global Attributes Demo</h1>
+
+    <div
+        id="studentCard"
+        class="card"
+        title="Student Information Card"
+        data-course="HTML5"
+        data-level="Beginner">
+
+        <h2 class="highlight">
+            Student Profile
+        </h2>
+
+        <p>
+            Name :
+            <span id="studentName">
+                Shaik Mahaboob Basha
+            </span>
+        </p>
+
+        <p lang="en">
+            Welcome to HTML5 Global Attributes demonstration.
+        </p>
+
+        <p dir="rtl">
+            مرحباً بكم في HTML5
+        </p>
+
+    </div>
+
+    <script>
+
+        const card =
+            document.getElementById("studentCard");
+
+        console.log(card.dataset.course);
+
+        console.log(card.dataset.level);
+
+    </script>
+
+</body>
+</html>
