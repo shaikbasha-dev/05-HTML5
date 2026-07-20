@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Images in HTML5</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#f4f4f4;
+            margin:40px;
+            line-height:1.6;
+        }
+
+        h1{
+            text-align:center;
+            color:#0d6efd;
+        }
+
+        section{
+            background:white;
+            padding:20px;
+            margin-bottom:25px;
+            border-radius:8px;
+            box-shadow:0 0 8px rgba(0,0,0,0.1);
+        }
+
+        img{
+            border:2px solid #333;
+            margin-top:10px;
+        }
+
+        code{
+            background:#eeeeee;
+            padding:2px 5px;
+            border-radius:4px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Basic Images in HTML5</h1>
+
+<section>
+
+    <h2>Example 1: Basic Image</h2>
+
+    <p>
+        The <code>&lt;img&gt;</code> element is used to display images on a webpage.
+    </p>
+
+    <img
+        src="images/nature.jpg"
+        alt="Beautiful Nature">
+
+</section>
+
+<section>
+
+    <h2>Example 2: Image with Width and Height</h2>
+
+    <img
+        src="images/mountain.jpg"
+        alt="Mountain"
+        width="400"
+        height="250">
+
+</section>
+
+<section>
+
+    <h2>Example 3: Image with Title</h2>
+
+    <img
+        src="images/flower.jpg"
+        alt="Flower"
+        title="Beautiful Flower">
+
+</section>
+
+<section>
+
+    <h2>Example 4: Multiple Images</h2>
+
+    <img
+        src="images/html-logo.png"
+        alt="HTML Logo"
+        width="150">
+
+    <img
+        src="images/css-logo.png"
+        alt="CSS Logo"
+        width="150">
+
+    <img
+        src="images/javascript-logo.png"
+        alt="JavaScript Logo"
+        width="150">
+
+</section>
+
+<section>
+
+    <h2>Example 5: Broken Image Demonstration</h2>
+
+    <p>
+        If the image cannot be found, the browser displays the alternative text.
+    </p>
+
+    <img
+        src="images/not-found.jpg"
+        alt="Image Not Available">
+
+</section>
+
+</body>
+</html>
