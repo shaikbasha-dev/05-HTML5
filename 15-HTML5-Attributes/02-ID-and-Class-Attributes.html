@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID and Class Attributes Demo</title>
+
+    <style>
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f4f4f4;
+            margin:40px;
+        }
+
+        h1{
+            color:#1f4e79;
+        }
+
+        #header{
+            background:#1f4e79;
+            color:white;
+            padding:15px;
+            border-radius:6px;
+        }
+
+        .course{
+            background:white;
+            border:1px solid #cccccc;
+            padding:15px;
+            margin-top:15px;
+            border-radius:6px;
+        }
+
+        .highlight{
+            color:green;
+            font-weight:bold;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1 id="header">
+        HTML5 ID and Class Attributes
+    </h1>
+
+    <div class="course">
+
+        <h2 class="highlight">
+            HTML5
+        </h2>
+
+        <p>
+            HTML5 is the standard markup language for creating web pages.
+        </p>
+
+    </div>
+
+    <div class="course">
+
+        <h2 class="highlight">
+            CSS3
+        </h2>
+
+        <p>
+            CSS3 is used to style and design web pages.
+        </p>
+
+    </div>
+
+    <div class="course">
+
+        <h2 class="highlight">
+            JavaScript
+        </h2>
+
+        <p>
+            JavaScript adds interactivity and dynamic behavior to web applications.
+        </p>
+
+    </div>
+
+    <script>
+
+        const heading =
+            document.getElementById("header");
+
+        console.log(heading.textContent);
+
+        const courses =
+            document.getElementsByClassName("course");
+
+        console.log(
+            "Number of course sections :",
+            courses.length
+        );
+
+    </script>
+
+</body>
+</html>
