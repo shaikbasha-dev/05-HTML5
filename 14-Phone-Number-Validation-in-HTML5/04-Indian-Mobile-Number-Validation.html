@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Indian Mobile Number Validation</title>
+
+</head>
+
+<body>
+
+    <h1>Indian Mobile Number Validation</h1>
+
+    <form>
+
+        <label for="phone">
+
+            Indian Mobile Number
+
+        </label>
+
+        <br><br>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="9876543210"
+            pattern="[6-9][0-9]{9}"
+            minlength="10"
+            maxlength="10"
+            title="Enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9."
+            required>
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Validate">
+
+    </form>
+
+</body>
+
+</html>
