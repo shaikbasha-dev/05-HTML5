@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Custom Validation Messages</title>
+
+</head>
+
+<body>
+
+    <h1>Custom Validation Messages</h1>
+
+    <form id="phoneForm">
+
+        <label for="phone">
+
+            Mobile Number
+
+        </label>
+
+        <br><br>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="9876543210"
+            required>
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Submit">
+
+    </form>
+
+    <script>
+
+        const phone =
+            document.getElementById("phone");
+
+        phone.addEventListener("input", function () {
+
+            const phonePattern =
+                /^[6-9][0-9]{9}$/;
+
+            if (phone.value === "") {
+
+                phone.setCustomValidity(
+                    "Mobile number is required."
+                );
+
+            }
+            else if (!phonePattern.test(phone.value)) {
+
+                phone.setCustomValidity(
+                    "Enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9."
+                );
+
+            }
+            else {
+
+                phone.setCustomValidity("");
+
+            }
+
+        });
+
+        document
+            .getElementById("phoneForm")
+            .addEventListener("submit", function (event) {
+
+                if (!phone.checkValidity()) {
+
+                    phone.reportValidity();
+
+                    event.preventDefault();
+
+                }
+
+            });
+
+    </script>
+
+</body>
+
+</html>
