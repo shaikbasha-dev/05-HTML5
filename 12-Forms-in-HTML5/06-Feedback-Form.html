@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback Form</title>
+
+</head>
+
+<body>
+
+    <h1>Customer Feedback Form</h1>
+
+    <form action="#"
+          method="post"
+          autocomplete="on">
+
+        <fieldset>
+
+            <legend>
+
+                Feedback Details
+
+            </legend>
+
+            <label for="fullName">
+
+                Full Name
+
+            </label>
+
+            <br>
+
+            <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Enter your full name"
+                required>
+
+            <br><br>
+
+            <label for="email">
+
+                Email Address
+
+            </label>
+
+            <br>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required>
+
+            <br><br>
+
+            <label for="phone">
+
+                Mobile Number
+
+            </label>
+
+            <br>
+
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{10}"
+                placeholder="Enter your mobile number">
+
+            <br><br>
+
+            <label for="service">
+
+                Service Used
+
+            </label>
+
+            <br>
+
+            <select
+                id="service"
+                name="service"
+                required>
+
+                <option value="">
+
+                    -- Select a Service --
+
+                </option>
+
+                <option>
+
+                    Website
+
+                </option>
+
+                <option>
+
+                    Mobile Application
+
+                </option>
+
+                <option>
+
+                    Customer Support
+
+                </option>
+
+                <option>
+
+                    Online Training
+
+                </option>
+
+            </select>
+
+            <br><br>
+
+            <label>
+
+                Overall Rating
+
+            </label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="excellent"
+                name="rating"
+                value="Excellent"
+                required>
+
+            <label for="excellent">
+
+                Excellent
+
+            </label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="good"
+                name="rating"
+                value="Good">
+
+            <label for="good">
+
+                Good
+
+            </label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="average"
+                name="rating"
+                value="Average">
+
+            <label for="average">
+
+                Average
+
+            </label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="poor"
+                name="rating"
+                value="Poor">
+
+            <label for="poor">
+
+                Poor
+
+            </label>
+
+            <br><br>
+
+            <label>
+
+                What did you like?
+
+            </label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="quality"
+                name="liked"
+                value="Quality">
+
+            <label for="quality">
+
+                Service Quality
+
+            </label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="support"
+                name="liked"
+                value="Support">
+
+            <label for="support">
+
+                Customer Support
+
+            </label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="pricing"
+                name="liked"
+                value="Pricing">
+
+            <label for="pricing">
+
+                Pricing
+
+            </label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="ui"
+                name="liked"
+                value="User Interface">
+
+            <label for="ui">
+
+                User Interface
+
+            </label>
+
+            <br><br>
+
+            <label for="comments">
+
+                Suggestions / Comments
+
+            </label>
+
+            <br>
+
+            <textarea
+                id="comments"
+                name="comments"
+                rows="6"
+                cols="50"
+                placeholder="Write your valuable feedback here..."
+                maxlength="500"></textarea>
+
+            <br><br>
+
+            <input
+                type="submit"
+                value="Submit Feedback">
+
+            <input
+                type="reset"
+                value="Clear Form">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
