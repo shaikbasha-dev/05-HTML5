@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>International Phone Validation with JavaScript</title>
+
+</head>
+
+<body>
+
+    <h1>International Phone Validation with JavaScript</h1>
+
+    <form id="phoneForm">
+
+        <label for="phone">
+
+            International Phone Number
+
+        </label>
+
+        <br><br>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+919876543210"
+            required>
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Validate">
+
+    </form>
+
+    <script>
+
+        document
+            .getElementById("phoneForm")
+            .addEventListener("submit", function (event) {
+
+                const phone =
+                    document.getElementById("phone").value.trim();
+
+                const internationalPattern =
+                    /^\+[1-9][0-9]{7,14}$/;
+
+                if (!internationalPattern.test(phone)) {
+
+                    alert(
+                        "Enter a valid international phone number (Example: +919876543210)."
+                    );
+
+                    event.preventDefault();
+
+                }
+
+            });
+
+    </script>
+
+</body>
+
+</html>
