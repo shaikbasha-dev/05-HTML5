@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Phone Number Validation</title>
+
+</head>
+
+<body>
+
+    <h1>JavaScript Phone Number Validation</h1>
+
+    <form id="phoneForm">
+
+        <label for="phone">
+
+            Mobile Number
+
+        </label>
+
+        <br><br>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="9876543210"
+            required>
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Validate">
+
+    </form>
+
+    <script>
+
+        document
+            .getElementById("phoneForm")
+            .addEventListener("submit", function (event) {
+
+                const phone =
+                    document.getElementById("phone").value;
+
+                const phonePattern =
+                    /^[6-9][0-9]{9}$/;
+
+                if (!phonePattern.test(phone)) {
+
+                    alert("Please enter a valid 10-digit Indian mobile number.");
+
+                    event.preventDefault();
+
+                }
+
+            });
+
+    </script>
+
+</body>
+
+</html>
