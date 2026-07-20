@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive HTML Table</title>
+
+    <style>
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            box-sizing: border-box;
+
+        }
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f4f4f4;
+
+            padding: 30px;
+
+        }
+
+        h1 {
+
+            text-align: center;
+
+            color: #333;
+
+            margin-bottom: 20px;
+
+        }
+
+        .table-container {
+
+            width: 100%;
+
+            overflow-x: auto;
+
+            background-color: #ffffff;
+
+            border-radius: 8px;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        table {
+
+            width: 100%;
+
+            min-width: 900px;
+
+            border-collapse: collapse;
+
+        }
+
+        caption {
+
+            font-size: 24px;
+
+            font-weight: bold;
+
+            padding: 15px;
+
+            color: #1565C0;
+
+        }
+
+        th,
+        td {
+
+            border: 1px solid #cccccc;
+
+            padding: 12px;
+
+            text-align: center;
+
+        }
+
+        th {
+
+            background-color: #1976D2;
+
+            color: white;
+
+        }
+
+        tbody tr:nth-child(even) {
+
+            background-color: #f2f2f2;
+
+        }
+
+        tbody tr:hover {
+
+            background-color: #e3f2fd;
+
+        }
+
+        @media screen and (max-width: 768px) {
+
+            body {
+
+                padding: 15px;
+
+            }
+
+            h1 {
+
+                font-size: 24px;
+
+            }
+
+            table {
+
+                font-size: 14px;
+
+            }
+
+            th,
+            td {
+
+                padding: 8px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Responsive HTML Table</h1>
+
+    <div class="table-container">
+
+        <table>
+
+            <caption>Employee Information Dashboard</caption>
+
+            <thead>
+
+                <tr>
+
+                    <th>Employee ID</th>
+
+                    <th>Name</th>
+
+                    <th>Department</th>
+
+                    <th>Designation</th>
+
+                    <th>Email</th>
+
+                    <th>Phone</th>
+
+                    <th>Salary</th>
+
+                    <th>Experience</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>EMP101</td>
+
+                    <td>Rahul Sharma</td>
+
+                    <td>Development</td>
+
+                    <td>Software Engineer</td>
+
+                    <td>rahul@example.com</td>
+
+                    <td>9876543210</td>
+
+                    <td>₹60,000</td>
+
+                    <td>3 Years</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>EMP102</td>
+
+                    <td>Anjali Verma</td>
+
+                    <td>Testing</td>
+
+                    <td>QA Engineer</td>
+
+                    <td>anjali@example.com</td>
+
+                    <td>9876543211</td>
+
+                    <td>₹55,000</td>
+
+                    <td>4 Years</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>EMP103</td>
+
+                    <td>Vikram Singh</td>
+
+                    <td>Human Resources</td>
+
+                    <td>HR Executive</td>
+
+                    <td>vikram@example.com</td>
+
+                    <td>9876543212</td>
+
+                    <td>₹50,000</td>
+
+                    <td>5 Years</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>EMP104</td>
+
+                    <td>Priya Nair</td>
+
+                    <td>Finance</td>
+
+                    <td>Accountant</td>
+
+                    <td>priya@example.com</td>
+
+                    <td>9876543213</td>
+
+                    <td>₹58,000</td>
+
+                    <td>6 Years</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
