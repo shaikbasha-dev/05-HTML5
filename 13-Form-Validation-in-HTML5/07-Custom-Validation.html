@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Custom Validation</title>
+
+    <style>
+
+        *{
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            margin:0;
+            padding:40px;
+            background:#f4f4f4;
+        }
+
+        .container{
+            max-width:650px;
+            margin:auto;
+            background:#ffffff;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:25px;
+        }
+
+        label{
+            display:block;
+            margin-top:15px;
+            margin-bottom:8px;
+            font-weight:bold;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            font-size:16px;
+        }
+
+        input[type="submit"]{
+            margin-top:25px;
+            cursor:pointer;
+        }
+
+        small{
+            color:#666;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Custom Validation Example</h1>
+
+        <form id="registrationForm">
+
+            <label for="username">
+
+                Username
+
+            </label>
+
+            <input
+                type="text"
+                id="username"
+                name="username"
+                required>
+
+            <label for="password">
+
+                Password
+
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                minlength="8"
+                required>
+
+            <label for="confirmPassword">
+
+                Confirm Password
+
+            </label>
+
+            <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required>
+
+            <small>
+                Password and Confirm Password must match.
+            </small>
+
+            <input
+                type="submit"
+                value="Register">
+
+        </form>
+
+    </div>
+
+    <script>
+
+        const password = document.getElementById("password");
+
+        const confirmPassword = document.getElementById("confirmPassword");
+
+        function validatePassword() {
+
+            if (password.value !== confirmPassword.value) {
+
+                confirmPassword.setCustomValidity(
+                    "Passwords do not match."
+                );
+
+            }
+            else {
+
+                confirmPassword.setCustomValidity("");
+
+            }
+
+        }
+
+        password.addEventListener(
+            "input",
+            validatePassword
+        );
+
+        confirmPassword.addEventListener(
+            "input",
+            validatePassword
+        );
+
+    </script>
+
+</body>
+
+</html>
