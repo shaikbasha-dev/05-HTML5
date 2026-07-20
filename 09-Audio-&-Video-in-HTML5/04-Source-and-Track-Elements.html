@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Source and Track Elements Example</title>
+</head>
+
+<body>
+
+    <h1>HTML5 Source and Track Elements Example</h1>
+
+    <p>
+        This example demonstrates how to use the
+        <code>&lt;source&gt;</code> element to provide multiple media
+        formats and the <code>&lt;track&gt;</code> element to add subtitles.
+    </p>
+
+    <hr>
+
+    <h2>Audio Example Using Multiple Source Elements</h2>
+
+    <audio controls>
+
+        <source src="audio/sample.mp3" type="audio/mpeg">
+
+        <source src="audio/sample.ogg" type="audio/ogg">
+
+        <source src="audio/sample.wav" type="audio/wav">
+
+        Your browser does not support the HTML5 audio element.
+
+    </audio>
+
+    <hr>
+
+    <h2>Video Example Using Source and Track Elements</h2>
+
+    <video controls
+           width="700"
+           poster="images/video-thumbnail.jpg">
+
+        <source src="video/sample.mp4" type="video/mp4">
+
+        <source src="video/sample.webm" type="video/webm">
+
+        <source src="video/sample.ogv" type="video/ogg">
+
+        <track
+            src="subtitles/english.vtt"
+            kind="subtitles"
+            srclang="en"
+            label="English"
+            default>
+
+        Your browser does not support the HTML5 video element.
+
+    </video>
+
+    <hr>
+
+    <h2>Explanation</h2>
+
+    <h3>Source Element</h3>
+
+    <ul>
+        <li><strong>&lt;source&gt;</strong> provides multiple media formats.</li>
+        <li>The browser automatically selects the first supported format.</li>
+        <li>Improves compatibility across different browsers.</li>
+    </ul>
+
+    <h3>Track Element</h3>
+
+    <ul>
+        <li><strong>&lt;track&gt;</strong> adds subtitles and captions.</li>
+        <li><strong>kind</strong> specifies the type of text track.</li>
+        <li><strong>srclang</strong> specifies the subtitle language.</li>
+        <li><strong>label</strong> provides the display name.</li>
+        <li><strong>default</strong> enables the subtitle automatically.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Summary</h2>
+
+    <p>
+        The <code>&lt;source&gt;</code> element improves browser compatibility
+        by allowing multiple audio and video formats, while the
+        <code>&lt;track&gt;</code> element enhances accessibility by providing
+        subtitles, captions, and other synchronized text tracks for multimedia
+        content.
+    </p>
+
+</body>
+
+</html>
