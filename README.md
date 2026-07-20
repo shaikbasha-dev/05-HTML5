@@ -1207,7 +1207,7 @@ Aspiring Java Full Stack Developer with a strong interest in building scalable a
 # 🌐 Connect With Me
 
 - GitHub: https://github.com/shaikbasha-dev
-- LinkedIn: https://www.linkedin.com/in/shaik-mahaboob-basha/
+- LinkedIn: https://www.linkedin.com/in/shaikbasha-dev/
 - Email: smbashadev@gmail.com
 
 Feel free to connect for professional networking, collaboration, knowledge sharing, and continuous learning.
