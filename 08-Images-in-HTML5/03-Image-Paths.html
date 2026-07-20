@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Image Paths</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#f4f4f4;
+            margin:40px;
+            line-height:1.6;
+        }
+
+        h1{
+            text-align:center;
+            color:#0d6efd;
+        }
+
+        section{
+            background:#ffffff;
+            margin-bottom:25px;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0 0 8px rgba(0,0,0,0.1);
+        }
+
+        img{
+            border:2px solid #333;
+            margin-top:10px;
+        }
+
+        code{
+            background:#eeeeee;
+            padding:2px 6px;
+            border-radius:4px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        table, th, td{
+            border:1px solid #999;
+        }
+
+        th{
+            background:#0d6efd;
+            color:#ffffff;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+
+<h1>HTML5 Image Paths</h1>
+
+<section>
+
+    <h2>1. Image in the Same Folder</h2>
+
+    <p>
+        The image file is stored in the same directory as this HTML file.
+    </p>
+
+    <img
+        src="logo.png"
+        alt="Logo">
+
+    <p><code>src="logo.png"</code></p>
+
+</section>
+
+<section>
+
+    <h2>2. Image Inside an Images Folder</h2>
+
+    <p>
+        The image is stored inside an <code>images</code> folder.
+    </p>
+
+    <img
+        src="images/nature.jpg"
+        alt="Nature">
+
+    <p><code>src="images/nature.jpg"</code></p>
+
+</section>
+
+<section>
+
+    <h2>3. Image from Parent Folder</h2>
+
+    <p>
+        The image is located one directory above the current HTML file.
+    </p>
+
+    <img
+        src="../images/banner.jpg"
+        alt="Banner">
+
+    <p><code>src="../images/banner.jpg"</code></p>
+
+</section>
+
+<section>
+
+    <h2>4. Absolute Image Path</h2>
+
+    <p>
+        The image is loaded from an external website using a complete URL.
+    </p>
+
+    <img
+        src="https://via.placeholder.com/400x200"
+        alt="Placeholder Image">
+
+    <p><code>src="https://via.placeholder.com/400x200"</code></p>
+
+</section>
+
+<section>
+
+    <h2>Relative vs Absolute Paths</h2>
+
+    <table>
+
+        <tr>
+            <th>Relative Path</th>
+            <th>Absolute Path</th>
+        </tr>
+
+        <tr>
+            <td>Used for project images.</td>
+            <td>Used for externally hosted images.</td>
+        </tr>
+
+        <tr>
+            <td>Portable.</td>
+            <td>Depends on external servers.</td>
+        </tr>
+
+        <tr>
+            <td>No domain name required.</td>
+            <td>Includes protocol and domain.</td>
+        </tr>
+
+        <tr>
+            <td>Ideal for local development.</td>
+            <td>Ideal for CDN or third-party resources.</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section>
+
+    <h2>Best Practices</h2>
+
+    <ul>
+        <li>Use relative paths for project resources.</li>
+        <li>Organize images inside dedicated folders.</li>
+        <li>Use meaningful file names.</li>
+        <li>Always verify image paths before deployment.</li>
+        <li>Use HTTPS for external image resources.</li>
+        <li>Always include the <code>alt</code> attribute.</li>
+    </ul>
+
+</section>
+
+</body>
+</html>
